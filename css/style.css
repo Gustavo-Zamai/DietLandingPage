@@ -1,0 +1,32 @@
+.gradient-background {
+    background: linear-gradient(to right, #56ccf2, #2f80ed, #2d9cdb);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+
+  .background {
+    background-color: #121212 ;
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+
+  .profile-image {
+    height: 50;
+    border-radius: 50%;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
