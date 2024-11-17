@@ -18,6 +18,12 @@
     height: 50;
     border-radius: 50%;
   }
+
+  p > strong {
+    display: flex;
+    justify-content: flex-end;
+    font-size: .75rem;
+  }
   
   @keyframes gradient-animation {
     0% {
